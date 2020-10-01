@@ -1,0 +1,25 @@
+ .App {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f6f7f9; 
+  /* #f6f7f9; */
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.container{
+  max-width: 1400px;
+} 
